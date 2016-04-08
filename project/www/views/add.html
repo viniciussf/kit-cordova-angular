@@ -1,0 +1,16 @@
+<div class="photo">
+  <div class="container" >
+    <form novalidate>
+    Name photo:<br>
+    <input type="text" ng-model="photo.title"><br>
+	Description photo:<br>
+    <input type="text" ng-model="photo.author">
+	<br>
+	Url photo:<br>
+    <input type="text" ng-model="photo.url">
+    <br><br>
+    <button ng-click="salvePhoto()">Salve</button>
+	<p>{{photo}}</p>
+  </form>
+  </div>
+</div>
